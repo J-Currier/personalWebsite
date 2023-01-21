@@ -1,0 +1,158 @@
+body {
+    background-color: black;
+    color: rgb(0, 255, 255);
+  }
+
+  .navbar .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: rgb(24, 24, 24);
+    color: rgb(154,0,240);
+}
+
+.navbar-nav li a{
+    color: rgb(0,255,255);
+}
+
+
+h1 {
+    color: white;
+    font-family: andale mono, monospace;
+    font-size: 4em;
+
+}
+
+
+.businessCard {
+    margin-left: 20%;
+    margin-top: 150px;
+    padding-left: 10px;
+    border-left: 2px solid rgb(154,0,240);
+    font-family: andale mono, monospace;
+    animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.active {
+    color: rgb(0,255,255) !important;
+}
+
+.tagLine {
+    float: right;
+    margin-right: 5%;
+    font-family: 'Impact', sans-serif ;
+    font-size: 2em;
+    color:rgb(144, 197, 247);
+    width: 90%;
+    text-align: right;
+    padding-top: 120px;
+    max-width: 550px;
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+}
+
+
+.clearfix {
+    clear:both;
+}
+
+.experience {
+    float: left;
+    margin-left: 5%;
+    margin-top: 100px;
+    padding-left: 5%;
+    border-left: 2px solid rgb(154,0,240);
+
+}
+
+.title {
+    font-family: 'Impact', sans-serif ;
+    font-size: 2.4em;
+    text-decoration: underline ;
+    padding-bottom: 30px;
+}
+.discriptor {
+    font-size: 1em;
+    color: white;
+
+}
+
+.year {
+    font-family: 'Impact', sans-serif ;
+    color: white;
+    font-size: 2em;
+    float: left;
+    width: 100%;
+
+}
+
+.item{
+    border-right: 2px solid rgb(0,255,255);
+    border-top: 2px solid rgb(0,255,255);
+    border-top-right-radius: 15px;
+    color: rgb(154,0,240);
+    padding: 15px;
+    float: right;
+    width: 70%;
+    margin-right: 15px;
+    margin-bottom: 10px;
+
+}
+
+.itemTitle {
+
+    color: white;
+    font-family: 'Impact', sans-serif ;
+    font-size: 1.5em;
+    text-decoration: underline ;
+    text-decoration-color: rgb(0,255,255);
+
+
+}
+
+.itemDescription {
+    color: white;
+    text-decoration: none !important;
+
+}
+
+
+/*.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: var(--bs-navbar-active-color);
+}
+
+
+/*--bs-navbar-brand-hover-color: rgba(141, 25, 250, 0.9);
+--bs-navbar-active-color: rgba(141, 25, 250, 0.9);
+
+purple (154,117,240)
+aqua (0, 255, 255)
