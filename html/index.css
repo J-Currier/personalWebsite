@@ -1,0 +1,261 @@
+body {
+    background-color: black;
+    color: rgb(0, 255, 255);
+  }
+
+  .navbar .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: rgb(24, 24, 24);
+    color: rgb(154,0,240);
+}
+
+.navbar-nav li a{
+    color: rgb(0,255,255);
+}
+
+
+h1 {
+    color: white;
+    font-family: andale mono, monospace;
+    font-size: 4em;
+
+}
+
+.businessCard {
+    margin-left: 20%;
+    margin-top: 150px;
+    padding-left: 10px;
+    border-left: 2px solid rgb(154,0,240);
+    font-family: andale mono, monospace;
+    animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.active {
+    color: rgb(0,255,255) !important;
+}
+
+.tagLine {
+    float: right;
+    margin-right: 5%;
+    font-family: 'Impact', sans-serif ;
+    font-size: 2em;
+    color:rgb(144, 197, 247);
+    width: 90%;
+    text-align: right;
+    padding-top: 120px;
+    max-width: 550px;
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+}
+
+
+.clearfix {
+    clear:both;
+}
+
+.experience {
+    float: left;
+    margin-left: 5%;
+    margin-top: 100px;
+    padding-left: 5%;
+    border-left: 2px solid rgb(154,0,240);
+
+}
+
+.title {
+    font-family: 'Impact', sans-serif ;
+    font-size: 2.4em;
+    text-decoration: underline ;
+    padding-bottom: 30px;
+}
+.discriptor {
+    font-size: 1em;
+    color: white;
+
+}
+
+.year {
+    font-family: 'Impact', sans-serif ;
+    color: white;
+    font-size: 2em;
+    float: left;
+    width: 100%;
+
+}
+
+.item{
+    border-right: 2px solid rgb(0,255,255);
+    border-top: 2px solid rgb(0,255,255);
+    border-top-right-radius: 15px;
+    color: rgb(154,0,240);
+    padding: 15px;
+    float: right;
+    width: 70%;
+    margin-right: 15px;
+    margin-bottom: 10px;
+
+}
+
+.itemTitle {
+
+    color: white;
+    font-family: 'Impact', sans-serif ;
+    font-size: 1.5em;
+    text-decoration: underline ;
+    text-decoration-color: rgb(0,255,255);
+
+
+}
+
+.itemDescription {
+    color: white;
+    text-decoration: none !important;
+}
+
+.form{
+    padding-top: 5vw;
+    border: none;
+    margin: auto;
+    width: 60%;
+}
+
+.input {
+    padding: 10px;
+}
+
+.label {
+    padding: 20px;
+    width: 80vw
+    
+}
+
+.message {
+    height: 40vh;
+}
+input[type="text"], textarea {
+
+    background-color : rgb(33, 37, 41); 
+    border: none;
+    border-radius: 5px;
+    font-size: larger;
+    width: 80%;
+    color: white;
+}
+
+.myButton {
+    margin: 0;
+    position: absolute;
+    left: 45%;
+    -ms-transform: translateX(-50%, -50%);
+    transform: translateX(-50%, -50%);
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #95d2f0 5%, #00ffff 100%);
+	background-color:#95d2f0;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+    
+}
+
+.myButton:hover {
+	background:linear-gradient(to bottom, #00ffff 5%, #95d2f0 100%);
+	background-color:#00ffff;
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.contactmetag {
+    color:#00ffff;
+    padding-top: 5vh;
+    margin-left: 10%;
+}
+
+.contactcontent {
+    color: white;
+    font-size: 2em;
+    border-left: 2px solid rgb(154,0,240);
+    padding-left: 2%;
+    margin-left:15%;
+    margin-top: 5vh;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.gridContent {
+    justify-self: center;
+}
+
+.available {
+    color: white;
+    margin-left: 20%;
+    width:75%
+
+}
+
+.chat {
+    float: right;
+    padding-right: 10%
+}
+
+.footer {
+    margin: 0;
+    position: absolute;
+    left: 15%;
+    display: flex;
+    padding-top: 20vh;
+    padding-bottom: 15vh;
+    width: 70%;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+/*
+purple (154,0,240)#9A00F0
+aqua (0, 255, 255) #00FFFF
+light purple (154, 117, 240)
