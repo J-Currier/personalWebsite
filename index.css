@@ -255,6 +255,15 @@ input[type="text"], textarea {
     justify-content: center;
     justify-content: space-around;
 }
+
+.youtube {
+        margin: auto;
+        width: 50%;
+        text-align: center;
+        font-size: 3em;
+        padding: 20px;
+
+}
 /*
 purple (154,0,240)#9A00F0
 aqua (0, 255, 255) #00FFFF
